@@ -12,7 +12,7 @@ Version: https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-
 Token: Sonarqube Administrator - Generate token
 
 Aufruf:
-mvn sonar:sonar -Dsonar.host.url=http://0.0.0.0:9000 -Dsonar.login=squ_506f6357c2552deac58d3c625e39288b84494278
+mvn sonar:sonar -Dsonar.host.url=http://0.0.0.0:9000 -Dsonar.token=squ_506f6357c2552deac58d3c625e39288b84494278
 
 
 
