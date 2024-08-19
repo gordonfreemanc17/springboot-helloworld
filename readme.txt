@@ -1,4 +1,4 @@
-Sonarqube Integration:
+Maven - Sonarqube Integration:
 plugin in pom.yml
            <plugin>
                 <groupId>org.sonarsource.scanner.maven</groupId>
@@ -12,8 +12,12 @@ Version: https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-
 Token: Sonarqube Administrator - Generate token
 
 Aufruf:
-mvn sonar:sonar -Dsonar.host.url=http://0.0.0.0:9000 -Dsonar.token=squ_506f6357c2552deac58d3c625e39288b84494278
+mvn sonar:sonar -Dsonar.host.url=http://0.0.0.0:59000 -Dsonar.token=squ_506f6357c2552deac58d3c625e39288b84494278
 
 
 
+
+Maven - Nexus Integration:
+- settings.xml: add Nexus server credentials
+- pom.xml: add deployment management section (Nexus URLs)
 
