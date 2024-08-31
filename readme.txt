@@ -9,10 +9,12 @@ plugin in pom.yml
 Version: https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin
 
 
-Token: Sonarqube Administrator - Generate token
+Sonarqube (Docker):
 
 Aufruf:
-mvn sonar:sonar -Dsonar.host.url=http://0.0.0.0:59000 -Dsonar.token=squ_506f6357c2552deac58d3c625e39288b84494278
+mvn sonar:sonar -Dsonar.host.url=http://192.168.122.91:59000 -Dsonar.token=squ_aa86a08216a762e9ae9cf80fd4430220d160d21c
+
+Token: Sonarqube, Admin, My Account, Security, generate token
 
 
 
