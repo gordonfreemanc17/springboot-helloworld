@@ -21,3 +21,4 @@ Maven - Nexus Integration:
 - settings.xml: add Nexus server credentials
 - pom.xml: add deployment management section (Nexus URLs)
 
+<Ansible Integration placeholder>
